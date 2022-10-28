@@ -1,0 +1,31 @@
+# VueJS 101
+
+Vous allez développer un outil super utile en peu de ligne de code une TODO LIST.
+
+Ouais je sais c'est l'exemple de base, mais il faut bien commencer quelque part, et puis on va pouvoir apprendre plein de petits mécanismes ultra utile de VueJS. So LetsGoooooo.
+
+![](https://media.giphy.com/media/TilmLMmWrRYYHjLfub/giphy.gif)
+
+## Todo ( ͡° ͜ʖ ͡°)
+> Avant de commencer, pensez à installer l'extension Vue DevTool sur votre navigateur **(prenez la version compatible avec Vue3 !)**
+- [x] Créer l'application VueJS
+- [x] Lister les taches en cours
+- [x] Ajouter des taches (Utiliser `v-model`)
+- [x] Barrer les taches quand on clique dessus
+- [x] Vider la liste des taches
+- [x] Mettre en place un raccourci clavier sur la touche `Enter` pour ajouter une tâche
+- [x] Sauvegarder les tâches dans le local storage
+- [x] Charger les tâches en utilisant un hook du lifecycle VueJS
+- [x] Faire en sorte que le local storage se mette à jour automatiquement lors quand on modifie la todo list (en utilisant le lifecycle)
+- [x] Faites fonctionner le `<select>` avec 3 niveaux de priorité possible, en modifiant le moins possible votre code JS et HTML (utilisez les `v-model`)
+- [x] Afficher les niveaux de priorité dans la liste des tâches
+- [x] Ajouter un système de tri de vos tâches par priorité
+
+## Ressources à lire evidemment
+* [Getting Started with VueJS](https://v3.vuejs.org/guide/introduction.html#declarative-rendering)
+* [`methods` et la propriété `data`](https://v3.vuejs.org/guide/data-methods.html#methods)
+* [Gestion de la saisie utilisateur](https://v3.vuejs.org/guide/introduction.html#handling-user-input)
+* [Formulaires et v-model en détail](https://v3.vuejs.org/guide/forms.html#basic-usage)
+* [Les directives, if, for...](https://v3.vuejs.org/guide/introduction.html#conditionals-and-loops)
+* [Le binding et les classes dynamiques](https://v3.vuejs.org/guide/class-and-style.html#class-and-style-bindings)
+* [Le cycle de vie d'un composant VueJS](https://v3.vuejs.org/guide/instance.html#lifecycle-diagram)
